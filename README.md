@@ -1,6 +1,6 @@
 # IST412_Team2  
 ----
-##Roadmap  
+## Roadmap  
 
 **Read Data from Database** 
 
@@ -33,3 +33,4 @@
 * Evan Gannon
 * Jimmy Hopf
 * Kelby Chen
+* Win Ton

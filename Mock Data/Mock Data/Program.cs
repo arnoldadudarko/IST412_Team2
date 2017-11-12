@@ -3,22 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-// Kelby Chen
-// Create Mock JSON data
-// 11/11/2017
-
-namespace Team2_IST412
+namespace ConsoleApp1
 {
-    public class CreateMockData
+    class Program
     {
         static void Main(string[] args)
         {
             //Used for randomizing data
             Random rnd = new Random();
 
-            //List for events
+            //List for Events
             var event_list = new List<String>
             {
                 "Temp",
@@ -28,7 +25,6 @@ namespace Team2_IST412
                 "Button"
             };
 
-            //List for emails
             var email_list = new List<String>
             {
                 "dev1@gmail.com",
@@ -41,8 +37,7 @@ namespace Team2_IST412
             //Create list to hold JSON data for insertion into file
             List<Data> db = new List<Data>();
 
-            //Creates 50 data randomized JSON data entries
-            for (int i = 0; i <= 50; i++)
+            for (int i = 0; i <= 49; i++)
             {
                 string team = "Team " + rnd.Next(1, 5);
                 string device = "RP " + rnd.Next(1, 5);
@@ -50,8 +45,7 @@ namespace Team2_IST412
                 string time = RandomTime();
                 string day = RandomDay();
                 string email = email_list[rnd.Next(email_list.Count)];
-                
-                //Generate Unit Temp or Bool depending on event type
+                //Generate Unit Temp or Bool
                 string n = "";
                 if (events == "Temp")
                 {
@@ -63,7 +57,6 @@ namespace Team2_IST412
                 }
                 string unit = n;
 
-                //Create data object and inset into db list
                 Data data = new Data
                 {
                     Team = team,
@@ -74,16 +67,22 @@ namespace Team2_IST412
                     Email = email,
                     Value = unit
                 };
+                
                 db.Add(data);
+                Console.WriteLine("New entry added: " + i);
             }
+            
+            string output = JsonConvert.SerializeObject(db.ToArray());
+            System.IO.File.WriteAllText(@"MockData.json", output);
 
-            //Writes to MockData.json file
-            File.WriteAllText(@"MockData.json", JsonConvert.SerializeObject(db));
+            Console.WriteLine(output);
+            // Keep the console window open in debug mode.
+            Console.WriteLine("\nPress any key to exit.");
+            Console.ReadKey();
         }
 
         static String RandomDay()
         {
-            //Generates random day
             Random rnd = new Random();
             DateTime start = new DateTime(2017, 11, 12);
             int range = (DateTime.Today - start).Days;
@@ -94,7 +93,6 @@ namespace Team2_IST412
 
         static String RandomTime()
         {
-            //Generates random time stamp
             Random rnd = new Random();
             int hh = rnd.Next(0, 24);
             int mm = rnd.Next(0, 60);
@@ -103,7 +101,6 @@ namespace Team2_IST412
             string time = "" + hh + mm + ss + ms;
             return time;
         }
-
     }
 
     public class Data

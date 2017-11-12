@@ -53,7 +53,7 @@ namespace ConsoleApp1
                 }
                 else
                 {
-                    n = "" + rnd.Next(0, 1);
+                    n = "" + rnd.Next(0, 2);
                 }
                 string unit = n;
 
@@ -72,11 +72,16 @@ namespace ConsoleApp1
                 Console.WriteLine("New entry added: " + i);
             }
             
-            string output = JsonConvert.SerializeObject(db.ToArray());
-            System.IO.File.WriteAllText(@"MockData.json", output);
-
+            //Display JSON data in Console
+            string output = JsonConvert.SerializeObject(db.ToArray(), Formatting.Indented);
             Console.WriteLine(output);
-            // Keep the console window open in debug mode.
+
+            //Write to file
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            desktopPath += "\\MockData.json";
+            System.IO.File.WriteAllText(desktopPath, output);
+
+            //Keep the console window open in debug mode.
             Console.WriteLine("\nPress any key to exit.");
             Console.ReadKey();
         }
@@ -87,7 +92,7 @@ namespace ConsoleApp1
             DateTime start = new DateTime(2017, 11, 12);
             int range = (DateTime.Today - start).Days;
             DateTime date = start.AddDays(rnd.Next(range));
-            string str_date = date.ToString();
+            string str_date = date.ToString("MM/dd/yyyy");
             return str_date;
         }
 
@@ -98,7 +103,7 @@ namespace ConsoleApp1
             int mm = rnd.Next(0, 60);
             int ss = rnd.Next(0, 60);
             int ms = rnd.Next(0, 999);
-            string time = "" + hh + mm + ss + ms;
+            string time = hh + ":" + mm + ":" + ss + ":" + ms;
             return time;
         }
     }

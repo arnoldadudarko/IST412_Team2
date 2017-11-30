@@ -1,0 +1,12 @@
+sqladmin
+Ist412Admin!
+
+
+App ID
+775398839329980
+
+App Secret
+c1a488fcfbcfceda003a238378fdd7cf
+
+original usersecretsid
+aspnet-CloudApp-EEA36809-1E52-46FC-8813-40C195E095A8

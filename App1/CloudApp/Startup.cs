@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using CloudApp.Data;
 using CloudApp.Services;
+using Microsoft.AspNetCore.Authentication.Facebook;
 
 namespace CloudApp
 //{
@@ -73,6 +74,16 @@ namespace CloudApp
                     options.Conventions.AuthorizeFolder("/Account/Manage");
                     options.Conventions.AuthorizePage("/Account/Logout");
                 });
+            //services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores();
+
+            // If you want to tweak identity cookies, they no longer are part of identityOptions
+            services.ConfigureApplicationCookie(o => o.LoginPath = new PathString("/login"));
+            services.AddAuthentication()
+                        .AddFacebook(o =>
+                        {
+                            o.AppId = "775398839329980";
+                            o.AppSecret = "c1a488fcfbcfceda003a238378fdd7cf";
+                        });
 
             // Register no-op EmailSender used by account confirmation and password reset during development
             // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=532713

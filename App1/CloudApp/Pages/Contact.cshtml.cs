@@ -12,7 +12,7 @@ namespace CloudApp.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "Team2 of IST 412. Fall 2017";
         }
     }
 }

@@ -16,7 +16,7 @@ namespace CloudApp
 {
     public class DataTable
     {
-
+        /*
         public void LoadJson()
         {
             using (StreamReader r = new StreamReader("file.json"))
@@ -71,5 +71,8 @@ namespace CloudApp
             return dataTable;
         }
 
+    
+    */
     }
+    
 }

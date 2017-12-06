@@ -3,11 +3,12 @@
 @{
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="chartContainer"></div>
+<div id="chartContainer2"></div>
     <script type="text/javascript">
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 title: {
-                    text: "Desktop Search Engine Market Share, Jul-2016"
+                    text: "Raspberry Pi Data points - overall points "
                 },
                 animationEnabled: true,
                 legend: {
@@ -27,18 +28,41 @@
                     showInLegend: true,
                     toolTipContent: "{legendText} {y}%",
                     dataPoints: [
-                        { y: 72.48, legendText: "Google", label: "Google" },
-                        { y: 10.39, legendText: "Bing", label: "Bing" },
-                        { y: 7.78, legendText: "Yahoo!", label: "Yahoo!" },
-                        { y: 7.14, legendText: "Baidu", label: "Baidu" },
-                        { y: 0.22, legendText: "Ask", label: "Ask" },
-                        { y: 0.15, legendText: "AOL", label: "AOL" },
-                        { y: 1.84, legendText: "Others", label: "Others" }
+                        { y: 13, legendText: "Motion", label: "Motion" },
+                        { y: 27, legendText: "Temp", label: "Temp" },
+                        { y: 38, legendText: "Noise", label: "Noise" },
+                        { y: 7, legendText: "Light", label: "Light" },
+                        { y: 14, legendText: "Button", label: "Button" }
+                       
                     ]
                 }
                 ]
             });
             chart.render();
+
+    var chart2 = new CanvasJS.Chart("chartContainer2",
+    {
+      title:{
+        text: "Temperature Over Time"
+      },
+      data: [
+
+      {
+        dataPoints: [
+        { x: 1, y: 47, label: "11/17/2017"},
+        { x: 2, y: 44,  label: "11/19/2017" },
+        { x: 3, y: 39,  label: "11/21/2017"},
+        { x: 4, y: 37,  label: "11/29/2018"},
+        { x: 5, y: 55,  label: "11/30/2017"},
+        { x: 6, y: 47, label: "12/2/2017"},
+        { x: 7, y: 43,  label: "12/5/2017"},
+        { x: 8, y: 41,  label: "12/6/2017"}
+        ]
+      }
+      ]
+    });
+
+    chart2.render();
         };
     </script>
 

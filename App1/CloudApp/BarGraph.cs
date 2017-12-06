@@ -5,20 +5,26 @@ using System.IO;
 
 namespace CloudApp
 {
-
     public class BarGraph
     {
         public void LoadJson()
         {
-            using (StreamReader r = new StreamReader("file.json"))
+            using (StreamReader r = new StreamReader("MockData.json"))
             {
                 string json = r.ReadToEnd();
-                List items = JsonConvert.DeserializeObject<List>(json);
+                Data items = JsonConvert.DeserializeObject<Data>(json);
+                Console.WriteLine(json);
             }
         }
-    }
-
-    internal class List
-    {
+        public class Data
+        {
+            public String team;
+            public String device;
+            public String Event;
+            public int time;
+            public int date;
+            public String email;
+            public int value;
+        }
     }
 }

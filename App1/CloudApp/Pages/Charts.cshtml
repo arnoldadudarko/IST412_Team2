@@ -38,13 +38,15 @@
                 }
                 ]
             });
-            chart.render();
+          
+    
 
     var chart2 = new CanvasJS.Chart("chartContainer2",
     {
       title:{
         text: "Temperature Over Time"
       },
+    animationEnabled: true,
       data: [
 
       {
@@ -61,7 +63,7 @@
       }
       ]
     });
-
+      chart.render();
     chart2.render();
         };
     </script>

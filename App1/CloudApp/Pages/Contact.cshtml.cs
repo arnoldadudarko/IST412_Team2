@@ -12,7 +12,7 @@ namespace CloudApp.Pages
 
         public void OnGet()
         {
-            Message = "Team2 of IST 412. Fall 2017";
+            Message = "for inquiries email to aka5317@psu.edu";
         }
     }
 }

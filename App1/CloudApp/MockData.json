@@ -1,452 +1,452 @@
 [
   {
-    "Team": "Team 2",
-    "Device": "RP 1",
-    "Event": "Motion",
-    "Time": "9:13:21:996",
-    "Date": "11/20/2017",
-    "Email": "dev5@gmail.com",
+    "Team": "Team 4",
+    "Device": "RP 2",
+    "Event": "Button",
+    "Time": "5:45:44:525",
+    "Date": "09/12/2017",
+    "Email": "dev1@gmail.com",
     "Value": "1"
   },
   {
-    "Team": "Team 1",
-    "Device": "RP 4",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "99"
+    "Team": "Team 3",
+    "Device": "RP 1",
+    "Event": "Button",
+    "Time": "2:13:57:237",
+    "Date": "11/03/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 2",
+    "Event": "Light",
+    "Time": "16:30:58:88",
+    "Date": "04/04/2017",
+    "Email": "dev4@gmail.com",
+    "Value": "1"
   },
   {
     "Team": "Team 3",
     "Device": "RP 4",
+    "Event": "Noise",
+    "Time": "19:5:40:151",
+    "Date": "02/23/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 3",
+    "Event": "Light",
+    "Time": "6:21:33:629",
+    "Date": "09/06/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 3",
     "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
+    "Time": "20:39:34:480",
+    "Date": "02/04/2017",
     "Email": "dev1@gmail.com",
+    "Value": "70"
+  },
+  {
+    "Team": "Team 2",
+    "Device": "RP 3",
+    "Event": "Motion",
+    "Time": "7:55:27:958",
+    "Date": "08/18/2017",
+    "Email": "dev4@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 2",
+    "Device": "RP 3",
+    "Event": "Noise",
+    "Time": "21:13:27:808",
+    "Date": "01/16/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 4",
+    "Device": "RP 2",
+    "Event": "Temp",
+    "Time": "0:47:10:872",
+    "Date": "12/08/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "15"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 3",
+    "Event": "Button",
+    "Time": "11:4:3:351",
+    "Date": "06/20/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 2",
+    "Event": "Light",
+    "Time": "1:21:3:201",
+    "Date": "11/18/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 4",
+    "Event": "Motion",
+    "Time": "12:38:57:680",
+    "Date": "06/01/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 4",
+    "Device": "RP 1",
+    "Event": "Light",
+    "Time": "2:55:57:530",
+    "Date": "10/30/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 1",
+    "Event": "Button",
+    "Time": "5:30:39:594",
+    "Date": "09/21/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 2",
+    "Event": "Temp",
+    "Time": "16:47:33:73",
+    "Date": "04/04/2017",
+    "Email": "dev3@gmail.com",
     "Value": "37"
   },
   {
     "Team": "Team 1",
-    "Device": "RP 3",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev4@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 3",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev2@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 1",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev1@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev4@gmail.com",
-    "Value": "57"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 1",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Motion",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev2@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 4",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev2@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 3",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "5"
-  },
-  {
-    "Team": "Team 3",
-    "Device": "RP 2",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "76"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 4",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev4@gmail.com",
-    "Value": "7"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev2@gmail.com",
-    "Value": "4"
-  },
-  {
-    "Team": "Team 2",
-    "Device": "RP 3",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev1@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 2",
-    "Device": "RP 4",
-    "Event": "Light",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev2@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 2",
-    "Device": "RP 2",
-    "Event": "Light",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 2",
-    "Device": "RP 1",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev4@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev2@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 2",
-    "Device": "RP 2",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 2",
-    "Device": "RP 2",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 4",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev1@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 2",
-    "Event": "Light",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev1@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 3",
-    "Device": "RP 1",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev4@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 1",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 3",
-    "Device": "RP 1",
-    "Event": "Motion",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 4",
-    "Event": "Light",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev4@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "80"
-  },
-  {
-    "Team": "Team 3",
-    "Device": "RP 1",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev2@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 3",
-    "Device": "RP 4",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 1",
     "Device": "RP 2",
     "Event": "Motion",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
+    "Time": "6:4:33:922",
+    "Date": "09/02/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 2",
+    "Device": "RP 4",
+    "Event": "Temp",
+    "Time": "17:20:26:401",
+    "Date": "03/15/2017",
     "Email": "dev5@gmail.com",
+    "Value": "97"
+  },
+  {
+    "Team": "Team 4",
+    "Device": "RP 1",
+    "Event": "Button",
+    "Time": "7:38:27:252",
+    "Date": "08/14/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 2",
+    "Event": "Temp",
+    "Time": "10:13:9:315",
+    "Date": "07/05/2017",
+    "Email": "dev4@gmail.com",
+    "Value": "83"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 3",
+    "Event": "Noise",
+    "Time": "21:29:2:794",
+    "Date": "01/16/2017",
+    "Email": "dev4@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 4",
+    "Event": "Temp",
+    "Time": "11:46:3:644",
+    "Date": "06/16/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "23"
+  },
+  {
+    "Team": "Team 2",
+    "Device": "RP 1",
+    "Event": "Temp",
+    "Time": "22:3:56:123",
+    "Date": "12/28/2016",
+    "Email": "dev5@gmail.com",
+    "Value": "99"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 2",
+    "Event": "Button",
+    "Time": "12:20:56:973",
+    "Date": "05/28/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 1",
+    "Event": "Button",
+    "Time": "0:37:50:452",
+    "Date": "12/09/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 1",
+    "Event": "Motion",
+    "Time": "2:12:32:515",
+    "Date": "10/30/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 1",
+    "Event": "Noise",
+    "Time": "16:29:32:366",
+    "Date": "03/31/2017",
+    "Email": "dev4@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 4",
+    "Event": "Light",
+    "Time": "3:46:26:844",
+    "Date": "10/11/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 3",
+    "Event": "Temp",
+    "Time": "17:3:26:694",
+    "Date": "03/12/2017",
+    "Email": "dev4@gmail.com",
+    "Value": "62"
+  },
+  {
+    "Team": "Team 4",
+    "Device": "RP 4",
+    "Event": "Temp",
+    "Time": "5:19:19:174",
+    "Date": "09/22/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "86"
+  },
+  {
+    "Team": "Team 2",
+    "Device": "RP 2",
+    "Event": "Motion",
+    "Time": "7:54:2:237",
+    "Date": "08/14/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 4",
+    "Event": "Button",
+    "Time": "6:53:13:502",
+    "Date": "09/03/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 2",
+    "Event": "Noise",
+    "Time": "9:28:55:566",
+    "Date": "07/26/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 3",
+    "Event": "Motion",
+    "Time": "7:27:7:831",
+    "Date": "08/15/2017",
+    "Email": "dev2@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 3",
+    "Event": "Light",
+    "Time": "10:2:49:894",
+    "Date": "07/07/2017",
+    "Email": "dev3@gmail.com",
     "Value": "1"
   },
   {
     "Team": "Team 2",
     "Device": "RP 1",
     "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
+    "Time": "12:37:31:958",
+    "Date": "05/28/2017",
+    "Email": "dev5@gmail.com",
     "Value": "97"
   },
   {
     "Team": "Team 1",
-    "Device": "RP 3",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "36"
+    "Device": "RP 1",
+    "Event": "Button",
+    "Time": "11:36:43:224",
+    "Date": "06/17/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "0"
   },
   {
     "Team": "Team 2",
-    "Device": "RP 3",
+    "Device": "RP 4",
     "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "72"
+    "Time": "14:11:25:287",
+    "Date": "05/09/2017",
+    "Email": "dev1@gmail.com",
+    "Value": "13"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 4",
+    "Event": "Button",
+    "Time": "12:10:36:552",
+    "Date": "05/29/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 2",
+    "Device": "RP 1",
+    "Event": "Light",
+    "Time": "15:45:19:616",
+    "Date": "04/20/2017",
+    "Email": "dev1@gmail.com",
+    "Value": "0"
   },
   {
     "Team": "Team 1",
-    "Device": "RP 1",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "42"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "48"
-  },
-  {
-    "Team": "Team 4",
     "Device": "RP 3",
     "Event": "Light",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
+    "Time": "14:43:30:881",
+    "Date": "05/10/2017",
+    "Email": "dev1@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 3",
+    "Event": "Button",
+    "Time": "16:18:12:945",
+    "Date": "04/01/2017",
+    "Email": "dev4@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 3",
+    "Event": "Temp",
+    "Time": "15:17:24:211",
+    "Date": "04/21/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "65"
+  },
+  {
+    "Team": "Team 4",
+    "Device": "RP 2",
+    "Event": "Temp",
+    "Time": "17:52:6:274",
+    "Date": "03/13/2017",
     "Email": "dev2@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 3",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 2",
-    "Event": "Light",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 4",
-    "Device": "RP 4",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "0"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 3",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 1",
-    "Device": "RP 1",
-    "Event": "Motion",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 3",
-    "Device": "RP 4",
-    "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "0"
+    "Value": "29"
   },
   {
     "Team": "Team 2",
-    "Device": "RP 1",
-    "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "1"
-  },
-  {
-    "Team": "Team 3",
     "Device": "RP 3",
-    "Event": "Temp",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev5@gmail.com",
-    "Value": "76"
-  },
-  {
-    "Team": "Team 3",
-    "Device": "RP 2",
     "Event": "Motion",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
+    "Time": "16:51:17:539",
+    "Date": "04/02/2017",
     "Email": "dev1@gmail.com",
     "Value": "1"
   },
   {
     "Team": "Team 4",
-    "Device": "RP 1",
-    "Event": "Motion",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev3@gmail.com",
-    "Value": "0"
+    "Device": "RP 4",
+    "Event": "Temp",
+    "Time": "19:26:0:603",
+    "Date": "02/22/2017",
+    "Email": "dev1@gmail.com",
+    "Value": "31"
   },
   {
-    "Team": "Team 1",
-    "Device": "RP 1",
+    "Team": "Team 2",
+    "Device": "RP 2",
+    "Event": "Temp",
+    "Time": "6:43:53:82",
+    "Date": "09/04/2017",
+    "Email": "dev3@gmail.com",
+    "Value": "91"
+  },
+  {
+    "Team": "Team 3",
+    "Device": "RP 2",
     "Event": "Button",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
+    "Time": "20:0:53:931",
+    "Date": "02/02/2017",
     "Email": "dev3@gmail.com",
     "Value": "1"
   },
   {
     "Team": "Team 3",
-    "Device": "RP 2",
+    "Device": "RP 4",
     "Event": "Noise",
-    "Time": "5:37:50:198",
-    "Date": "11/16/2017",
-    "Email": "dev1@gmail.com",
+    "Time": "7:16:47:411",
+    "Date": "08/16/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "1"
+  },
+  {
+    "Team": "Team 1",
+    "Device": "RP 4",
+    "Event": "Button",
+    "Time": "21:34:47:261",
+    "Date": "01/14/2017",
+    "Email": "dev5@gmail.com",
+    "Value": "0"
+  },
+  {
+    "Team": "Team 4",
+    "Device": "RP 1",
+    "Event": "Noise",
+    "Time": "0:9:29:325",
+    "Date": "12/06/2017",
+    "Email": "dev5@gmail.com",
     "Value": "0"
   }
 ]

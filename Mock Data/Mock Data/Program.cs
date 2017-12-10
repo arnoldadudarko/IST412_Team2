@@ -44,13 +44,9 @@ namespace ConsoleApp1
                 string device = "RP " + rnd.Next(1, 5);
                 string events = event_list[rnd.Next(event_list.Count)];
                 string time = RandomTime();
-                // day = RandomDay();
-                Random rndday = new Random();
-                int range = 1 * 365;
-                DateTime date = DateTime.Today.AddDays(-rndday.Next(range));
-                string str_date = date.ToString("MM/dd/yyyy");
-
+                string date = RandomDay();
                 string email = email_list[rnd.Next(email_list.Count)];
+                
                 //Generate Unit Temp or Bool
                 string n = "";
                 if (events == "Temp")
@@ -69,7 +65,7 @@ namespace ConsoleApp1
                     Device = device,
                     Event = events,
                     Time = time,
-                    Date = str_date,
+                    Date = date,
                     Email = email,
                     Value = unit
                 };
@@ -92,14 +88,14 @@ namespace ConsoleApp1
             Console.ReadKey();
         }
 
-        /*static String RandomDay()
+        static String RandomDay()
         {
             Random rnd = new Random();
             int range = 1 * 365;
             DateTime date = DateTime.Today.AddDays(-rnd.Next(range));
             string str_date = date.ToString("MM/dd/yyyy");
             return str_date;
-        }*/
+        }
 
         static String RandomTime()
         {
